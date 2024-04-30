@@ -8,5 +8,5 @@
 #SBATCH --account=jpwalter_148
 
 # conda activate primary
-cd /scratch1/hengyita/pipeedge-Integer
+cd /scratch1/hengyita/Pipeedge-Integer-resnet
 python evaluation.py -n 32 -pt $1 -q $2,$2 -m torchvision/resnet18
